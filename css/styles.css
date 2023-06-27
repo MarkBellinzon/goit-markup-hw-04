@@ -139,8 +139,6 @@ ol {
   margin-left: auto;
 }
 
-
-
 /**
   |============================
   | Main styles
@@ -268,6 +266,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--branded-color);
+  margin-bottom: 8px;
 }
 
 .backteam-list {
@@ -294,6 +293,163 @@ ol {
 
 .block-list {
   display: block;
+}
+
+.our-link {
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid var(--light-cloud-color);
+  border-radius: small;
+}
+
+
+
+
+.mark-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.mark-items {
+  background-color: var(--primary-brand-color);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  padding: 12px 12px;
+}
+
+.mark-link {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  fill: var(--light-cloud-color);
+}
+
+.mark-items:hover {
+  background-color: var(--pressed-state-color);
+  cursor: pointer;
+}
+
+
+.tom-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.tom-items {
+  background-color: var(--primary-brand-color);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  padding: 12px 12px;
+}
+.tom-link {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  fill: var(--light-cloud-color);
+}
+
+.tom-items:hover {
+  background-color: var(--pressed-state-color);
+  cursor: pointer;
+}
+
+
+.camila-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.camila-items {
+  background-color: var(--primary-brand-color);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  padding: 12px 12px;
+}
+.camila-link {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  fill: var(--light-cloud-color);
+}
+
+.camila-items:hover {
+  background-color: var(--pressed-state-color);
+  cursor: pointer;
+}
+
+
+.dan-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.dan-items {
+  background-color: var(--primary-brand-color);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  padding: 12px 12px;
+}
+
+.dan-link {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  fill: var(--light-cloud-color);
+}
+
+.dan-items:hover {
+  background-color: var(--pressed-state-color);
+  cursor: pointer;
+}
+
+
+
+/**
+  |============================
+  | Clients
+  |============================
+*/
+
+.clients {
+  padding: 120px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.clients-item {
+}
+
+.clients-link {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 2px solid var(--subtle-text-color);
+  border-radius: small;
+}
+
+.clients-link:hover {
+  border-color: var(--pressed-state-color);
+}
+
+.clients-icon {
+  fill: var(--subtle-text-color);
+}
+.clients-link:hover .clients-icon {
+  fill: var(--pressed-state-color);
 }
 
 /**
@@ -331,6 +487,38 @@ ol {
 
 .footer-studio {
   color: var(--light-cloud-color);
+}
+
+.icon-footer {
+  color: var(--brand-color);
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-items {
+  background-color: var(--primary-brand-color);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  padding: 12px 12px;
+}
+
+.footer-link {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  fill: var(--light-cloud-color);
+}
+
+.footer-items:hover {
+  background-color: var(--success-color);
+  cursor: pointer;
+}
+
+.footer-container {
 }
 
 /**
