@@ -541,23 +541,29 @@ ol {
 .icon-footer {
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--brand-color);
-  padding-bottom: 16px;
-  width: 96px;
+  margin-bottom: 16px;
 }
 
 .footer-list {
   display: flex;
   justify-content: center;
   gap: 16px;
-}
-.footer-items {
-  background-color: var(--primary-brand-color);
-  border-radius: 50px;
+
   width: 40px;
   height: 40px;
+}
+
+.footer-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-brand-color);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
   padding: 12px 12px;
   animation-duration: 250ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -570,10 +576,10 @@ ol {
   display: flex;
   width: 16px;
   height: 16px;
-  fill: var(--light-cloud-color);
 }
 
-.footer-items:hover {
+.footer-items:hover,
+.footer-items:focus {
   background-color: var(--success-color);
   cursor: pointer;
   transition-property: color, background-color, border-color;
@@ -583,7 +589,13 @@ ol {
 
 .footer-container {
   display: flex;
-  margin-right: 500px;
+  margin-right: 120px;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--light-cloud-color);
 }
 
 .media-block {
