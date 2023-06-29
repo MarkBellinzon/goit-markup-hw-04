@@ -337,7 +337,8 @@ ol {
   align-items: center;
   display: flex;
   border: 1px solid var(--light-cloud-color);
-  border-radius: small;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .mark-list {
@@ -449,6 +450,12 @@ ol {
 .dan-items:hover {
   background-color: var(--pressed-state-color);
   cursor: pointer;
+}
+
+.icon-block {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 /**
