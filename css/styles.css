@@ -725,6 +725,11 @@ ol {
   transform: translatex(0);
 }
 
+.media-block {
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 /**
   |============================
   | Modal section
