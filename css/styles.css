@@ -356,9 +356,9 @@ ol {
   display: flex;
   justify-content: center;
   gap: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mark-items {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mark-link {
@@ -374,83 +374,6 @@ ol {
 
 .mark-link:hover,
 .mark-link:focus {
-  background-color: var(--pressed-state-color);
-  cursor: pointer;
-}
-
-.tom-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-.tom-items {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.tom-link {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  background-color: var(--primary-brand-color);
-  border-radius: 50%;
-  fill: var(--light-cloud-color);
-  align-items: center;
-  justify-content: center;
-}
-
-.tom-link:hover,
-.tom-link:focus {
-  background-color: var(--pressed-state-color);
-  cursor: pointer;
-}
-
-.camila-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-.camila-items {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.camila-link {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  background-color: var(--primary-brand-color);
-  border-radius: 50%;
-  fill: var(--light-cloud-color);
-  align-items: center;
-  justify-content: center;
-}
-
-.camila-link:hover,
-.camila-link:focus {
-  background-color: var(--pressed-state-color);
-  cursor: pointer;
-}
-
-.dan-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.dan-items {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.dan-link {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  background-color: var(--primary-brand-color);
-  border-radius: 50%;
-  fill: var(--light-cloud-color);
-  align-items: center;
-  justify-content: center;
-}
-
-.dan-link:hover,
-.dan-link:focus {
   background-color: var(--pressed-state-color);
   cursor: pointer;
 }
