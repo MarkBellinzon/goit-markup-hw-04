@@ -800,7 +800,7 @@ ol {
 
 .modal-icon {
   stroke: var(--dark-color);
-  color: var(--dark-color);
+  color: var(--brand-color);
   fill: currentColor;
   width: 8px;
   height: 8px;
