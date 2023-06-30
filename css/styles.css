@@ -335,6 +335,24 @@ ol {
   margin-bottom: 8px;
 }
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 64px;
+  height: 64px;
+}
+
+/**
+  |============================
+  | Team section
+  |============================
+*/
+
 .mark-list {
   display: flex;
   justify-content: center;
