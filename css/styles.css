@@ -738,4 +738,5 @@ card:focus {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--pressed-state-color);
+  border: none;
 }
